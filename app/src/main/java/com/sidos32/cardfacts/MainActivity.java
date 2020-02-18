@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         al = new ArrayList<>();
-        al.add("php");
-        al.add("c");
-        al.add("python");
+        al.add("Im open minded person and i love learning new things/skills.");
+        al.add("I would love to work as a developer someday.");
+        al.add("My hobbys are watching twitch,browsing reddit,reading books and playing games.");
         al.add("java");
         al.add("html");
         al.add("c++");

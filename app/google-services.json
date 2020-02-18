@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "618343788478",
+    "firebase_url": "https://bulgarianfacts-708b8.firebaseio.com",
+    "project_id": "bulgarianfacts-708b8",
+    "storage_bucket": "bulgarianfacts-708b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618343788478:android:ea2b3ce150f4cab02f13ef",
+        "android_client_info": {
+          "package_name": "com.sidos32.cardfacts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618343788478-ekhtdqtp871nm95tum9jmrqvmgudct9q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sidos32.cardfacts",
+            "certificate_hash": "52196065d64f6d504d4dda8cc11a3f977f4f04d8"
+          }
+        },
+        {
+          "client_id": "618343788478-mu49c2jqm7vagt440jpnq9pgdl8skcfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9f8_TFMS29q7wGa9xbSNpBh7zMT2bpCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618343788478-mu49c2jqm7vagt440jpnq9pgdl8skcfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
