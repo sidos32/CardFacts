@@ -15,13 +15,10 @@ public class MainActivity extends AppCompatActivity {
     private ArrayAdapter<String> arrayAdapter;
     private int i;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
 
         al = new ArrayList<>();
@@ -33,14 +30,16 @@ public class MainActivity extends AppCompatActivity {
         al.add("c++");
         al.add("css");
         al.add("javascript");
-        al.add("WHASASTR");
+        al.add("1test");
+        al.add("2test");
+        al.add("3test");
+        al.add("4test");
+        al.add("5test");
+
 
         arrayAdapter = new ArrayAdapter<>(this, R.layout.item, R.id.helloText, al );
 
         SwipeFlingAdapterView flingContainer = (SwipeFlingAdapterView) findViewById(R.id.frame);
-
-
-
 
         flingContainer.setAdapter(arrayAdapter);
         flingContainer.setFlingListener(new SwipeFlingAdapterView.onFlingListener() {
@@ -90,7 +89,5 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
-
 }
 

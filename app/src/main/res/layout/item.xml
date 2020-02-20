@@ -9,7 +9,7 @@
             android:id="@+id/helloText"
             android:textSize="40sp"
             android:textColor="@android:color/white"
-            android:background="#E339"
+            android:background="#EE9191DF"
             android:gravity="center"
             tools:text="hello"
             android:layout_width="match_parent"
