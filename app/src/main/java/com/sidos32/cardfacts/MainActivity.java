@@ -6,6 +6,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import com.lorentzos.flingswipe.SwipeFlingAdapterView;
+import java.lang.Object;
 
 import java.util.ArrayList;
 
@@ -25,19 +26,10 @@ public class MainActivity extends AppCompatActivity {
         al.add("Im open minded person and i love learning new things/skills.");
         al.add("I would love to work as a developer someday.");
         al.add("My hobbys are watching twitch,browsing reddit,reading books and playing games.");
-        al.add("java");
-        al.add("html");
-        al.add("c++");
-        al.add("css");
-        al.add("javascript");
-        al.add("1test");
-        al.add("2test");
-        al.add("3test");
-        al.add("4test");
-        al.add("5test");
 
 
-        arrayAdapter = new ArrayAdapter<>(this, R.layout.item, R.id.helloText, al );
+
+        arrayAdapter = new ArrayAdapter<>(this, R.layout.item, R.id.text, al );
 
         SwipeFlingAdapterView flingContainer = (SwipeFlingAdapterView) findViewById(R.id.frame);
 
