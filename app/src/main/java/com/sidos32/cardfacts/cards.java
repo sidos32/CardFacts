@@ -4,6 +4,7 @@ public class cards {
     private String cardId;
     private String text;
 
+
     public cards (String cardId,String text){
         this.cardId = cardId;
         this.text = text;
